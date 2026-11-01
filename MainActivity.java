@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         title.setGravity(Gravity.CENTER);
 
         TextView message = new TextView(this);
-        message.setText("Hello! This APK was built automatically using GitHub Actions.");
+        message.setText("Hello! Built using GitHub Actions.");
         message.setTextSize(16);
         message.setGravity(Gravity.CENTER);
         message.setPadding(0, 20, 0, 0);
